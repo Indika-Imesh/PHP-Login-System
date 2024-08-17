@@ -1,0 +1,143 @@
+.nav-header-main{
+    background-color: #002927;
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+.nav-header-main .header-logo{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+.nav-header-main ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 250px;
+}
+
+.nav-header-main .list li a{
+    color: #ffffff;
+    padding-right: 30px;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+.header-login{
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+
+}
+.main{
+    text-align: center;
+    font-size: 36px;
+}
+
+.nav-header-main .list li a:hover{
+    color: #00CCBE;
+}
+
+.nav-header-main .header-login .placeholder{
+    background-color: #011314;
+    color: #ffffff;
+    border-radius: 1px;
+    border-color: #00CCBE;
+}
+
+.header-login button{
+    background-color: #002927;
+    color: #ffffff;
+    border-radius: 120px !important;
+    border-radius: 1px;
+    border-color: #ffffff;
+}
+
+.header-login button:hover{
+    background-color: #00CCBE;
+    color: #011314;
+    border-radius: 120px;
+}
+
+.header-login .loginb{
+    margin-right: 30px;
+}
+
+.header-login .logoutb{
+    margin-left: 300px;
+}
+
+.header-login .sign{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 19px;
+}
+
+.header-login .sign:hover{
+    color: #00CCBE;
+}
+
+body{
+    background-color: #011314;
+}
+.wrapper-main{
+    background-color: #002927;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 30px;
+    border-color: #00CCBE;
+    border-radius: 25px;
+}
+
+.wrapper-main h1{
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.signpage input{
+    width: 350px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #037971;
+    border-color: #00CCBE;
+}
+
+.signpage ::placeholder{
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.signpage button{
+    background-color: #011314;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: #00CCBE;
+    color: #ffffff;
+    font-size: 19px;
+    padding: 10px 20px 10px 20px;
+}
+
+.signpage button:hover{
+    background-color: #00CCBE;
+    border-color: #011314;
+    color: #011314;
+}
+
+.wrapper-main .section-default .login-status{
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+.wrapper-main .section-default .signuperror{
+    color: red;
+}
+
+.wrapper-main .section-default .signupsuccess{
+    color: green;
+}
